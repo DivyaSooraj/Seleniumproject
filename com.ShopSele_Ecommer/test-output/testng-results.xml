@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28143" started-at="2020-10-26T16:56:36 GMT" finished-at="2020-10-26T16:57:04 GMT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28143" started-at="2020-10-26T16:56:36 GMT" finished-at="2020-10-26T16:57:04 GMT">
+      <class name="scripts.testcase10">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:scripts.testcase10@3224f60b]" name="OpenApp" is-config="true" duration-ms="11246" started-at="2020-10-26T16:56:36 GMT" finished-at="2020-10-26T16:56:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="tescase10()[pri:0, instance:scripts.testcase10@3224f60b]" name="tescase10" duration-ms="16809" started-at="2020-10-26T16:56:47 GMT" finished-at="2020-10-26T16:57:04 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tescase10 -->
+        <test-method status="PASS" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:scripts.testcase10@3224f60b]" name="CloseApp" is-config="true" duration-ms="4" started-at="2020-10-26T16:57:04 GMT" finished-at="2020-10-26T16:57:04 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tescase10 status=SUCCESS method=testcase10.tescase10()[pri:0, instance:scripts.testcase10@3224f60b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- scripts.testcase10 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
